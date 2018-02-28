@@ -6,9 +6,34 @@
 
 body{
 	/*background:#222;*/
-	font-family: 'Work Sans', Sans-serif;
+	font-family: 'Montserrat', Sans-serif;
 	font-weight: 300;
 }
+
+h2{
+	font-size: 2.5vw;
+	text-align: center;
+    padding: 40px 0px;
+    color: steelblue;
+    font-weight: 400;
+}
+
+
+h3{
+	text-align: left;
+	color: steelblue;
+	font-weight: 200;
+}
+
+strong{
+	color: steelblue;
+}
+
+
+/*=========================================
+HEADER Y mENU =============================*/
+
+
 
 .container{
 	width:80%;
@@ -17,8 +42,8 @@ body{
 }
 
 header{
-	background: #55d6aa;
-	/*background: steelblue;*/
+	/*background: #55d6aa;*/
+	background: steelblue;
 	
 }
 
@@ -56,21 +81,21 @@ nav li{
 }
 
 nav a{
-	color:#444;
+	color:#fff;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 14px;
 }
 
 nav a:hover{
-	color:#000;
+	color:#eee;
 }
 
 nav a::after{
 	content: '';
 	display: block;
 	height: 5px;
-	background-color: #444;
+	background-color: #fff;
 
 	position: absolute;
 	bottom: 0;
@@ -83,22 +108,103 @@ nav a:hover::after {
 	width: 100%; /*sets to 100% to show the bar on hover*/
 }
 
+
+/*=========================================
+MAIN =============================*/
+
+
+
 .main {
 	width: auto;
-	height: 500px;
-	background-image: url(../img/header2.jpeg);
-	/* Center and scale the image nicely */
-    background-repeat: no-repeat;
-    background-size: cover;
+	height: 700px;
+	overflow: hidden;
+
+	position: relative;
+}
+
+.main img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.contenedor_intro{
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 200px;
+	background-color: rgba(255,255,255,0.3);
+	border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    top: 50%;
+    padding: 30px;
+}
+
+.contenedor_intro h1{
+	font-size: 3em;
+	line-height: 0.9;
+	position: absolute;
+    top: 42%;
+    color: white;
+}
+
+.contenedor_intro h2{
+	font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: steelblue;
+    padding: 0px;
+    text-align: left;
+   	position: absolute;
+   	top: 28%;
+}
+
+.aboutme_contenedor{
+	background: #000;
 }
 
 
-@media screen and (min-width: 960px){
+.aboutme p{
+	text-align: center;
+    font-size: 0.75em;
+    line-height: 2;
+    padding: 0 50px;
+    color:#fff;
+}
+
+
+
+
+/*=========================================
+@MEDIA =============================*/
+
+
+@media screen and (max-width: 1024px) and (min-width: 520px){
+
+.container{
+	width:90%;
+	margin: 0 auto;
+}
+
+.main {
+	width: auto;
+	height: 600px;
+	overflow: hidden;
+}
+
+.main img{
+	width: 120%;
+	
+	height: auto;
+}
+
 
 nav li{
 	padding-bottom: 10px;
-	padding-top: 20px;
-
+	padding-top: 25px;
 }
+
+
+
 
 
