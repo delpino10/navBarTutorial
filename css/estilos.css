@@ -13,10 +13,13 @@ body{
 .container{
 	width:80%;
 	margin: 0 auto;
+
 }
 
 header{
 	background: #55d6aa;
+	/*background: steelblue;*/
+	
 }
 
 header::after{
@@ -32,6 +35,7 @@ header::after{
 
 nav{
 	float: right;
+
 }
 
 nav ul{
@@ -79,7 +83,22 @@ nav a:hover::after {
 	width: 100%; /*sets to 100% to show the bar on hover*/
 }
 
+.main {
+	width: auto;
+	height: 500px;
+	background-image: url(../img/header2.jpeg);
+	/* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
+@media screen and (min-width: 960px){
+
+nav li{
+	padding-bottom: 10px;
+	padding-top: 20px;
+
+}
 
 
