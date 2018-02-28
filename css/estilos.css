@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	/*background:#222;*/
+	font-family: 'Work Sans', Sans-serif;
+	font-weight: 300;
+}
+
+.container{
+	width:80%;
+	margin: 0 auto;
+}
+
+header{
+	background: #55d6aa;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear:both;
+}
+
+.logo{
+	float: left;
+	padding: 10px 0px;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	list-style: none;
+	/*margin:0;
+	padding: 0; no añadir estas propiedades porque ya se añadieron al principio de la hoja de estilo*/
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px; /*empuja el menú desde la izquierda*/
+	/*margin: 0 35px; empuja el menú desde la izquierda, pero deja un espacio vacio a la derecha*/
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+	position: relative; /*se añade para poner la clase pseudo::before; Si no estuvise, barra de pseudo::before acuparia
+	 el 100% de mi pantalla*/
+}
+
+nav a{
+	color:#444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav a:hover{
+	color:#000;
+}
+
+nav a::after{
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: #444;
+
+	position: absolute;
+	bottom: 0;
+	width:0%; /*Sets to 0% to hide the bar*/
+
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::after { 
+	width: 100%; /*sets to 100% to show the bar on hover*/
+}
+
+
+
+
+
