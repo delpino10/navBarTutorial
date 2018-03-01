@@ -133,7 +133,7 @@ MAIN =============================*/
 	height: auto;
 }
 /*----------------------------------
-RECUADRO ----------------------------------*/
+RECUADRO Above-the-scroll----------------------------------*/
 
 .contenedor_intro{
 	position: absolute;
@@ -184,6 +184,7 @@ ABOUT ME ----------------------------------*/
 
 .aboutme_contenedor{
 	background: #000;
+	position: relative;
 }
 
 
@@ -194,6 +195,88 @@ ABOUT ME ----------------------------------*/
     padding: 0 50px;
     color:#fff;
 }
+
+.aboutme-recuadro{
+	position: absolute;
+	width: 100%;
+	background: #222;
+}
+
+.iconos{
+	width: 20%;
+	margin: auto;
+}
+
+.aboutme-recuadro .iconos li{
+    display: inline-block;
+    margin: 0 40px ;
+}
+
+/*----------------------------------
+ABOUT ME Iconos----------------------------------*/
+
+.fa-user-o {
+    font-size: 1.5em;
+    /*border: 2px solid var(--main-bg-color);
+    border-radius: 100px;*/
+    padding: 10px;
+    color:  var(--main-bg-color);
+    
+}
+
+.fa-user-o:before {
+    content: "\f2c0";
+    /*font-size: 20px;*/
+}
+
+.fa-birthday-cake {
+    font-size: 1.5em;
+    /*border: 2px solid var(--main-bg-color);
+    border-radius: 100px;*/
+    padding: 10px;
+    color:  var(--main-bg-color);
+}
+
+.fa-birthday-cake:before {
+    content: "\f2c0";
+   /* font-size: 20px;*/
+}
+
+.fa-envelope-o {
+    font-size: 1.5em;
+    /*border: 2px solid var(--main-bg-color);
+    border-radius: 100px;*/
+    padding: 10px;
+    color:  var(--main-bg-color);
+}
+
+.fa-envelope-o:before {
+    content: "\f2c0";
+    /*font-size: 20px;*/
+}
+
+.fa-home {
+    font-size: 1.5em;
+    /*border: 2px solid var(--main-bg-color);
+    border-radius: 100px;*/
+    padding: 10px;
+    color:  var(--main-bg-color);
+}
+
+.fa-home:before {
+    content: "\f2c0";
+   /* font-size: 20px;*/
+}
+
+.datos_iconos li{
+	display: inline-block;
+    /*padding-top: 31px;*/
+    width: 24%;
+    font-size: 0.75em;
+    color: white;  
+}
+
+
 
 
 
