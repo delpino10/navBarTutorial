@@ -184,7 +184,8 @@ ABOUT ME ----------------------------------*/
 
 .aboutme_contenedor{
 	background: #000;
-	position: relative;
+	
+
 }
 
 
@@ -196,20 +197,46 @@ ABOUT ME ----------------------------------*/
     color:#fff;
 }
 
-.aboutme-recuadro{
-	position: absolute;
-	width: 100%;
-	background: #222;
+.aboutme_datos{
+	
+	background-color: #000;
+
 }
 
-.iconos{
-	width: 20%;
+.datos{
+	width: 90%;
 	margin: auto;
+	padding: 50px 0px;
+	list-style: none;
+	background-color: #000;
+	color: #fff;
+
 }
 
-.aboutme-recuadro .iconos li{
-    display: inline-block;
-    margin: 0 40px ;
+/*.datos ul{
+	list-style: none;
+}*/
+
+.datos li{
+	/*float:left;*/
+	display: inline-block;
+    
+}
+
+.datos div{
+	padding: 0 40px;
+	border-right: 1px solid var(--main-bg-color);
+}
+
+.datos p{
+	padding-top: 10px;
+}
+
+.centrado{
+	display: block;
+    margin: auto;
+    width: 20px;
+    padding-left: 0px;
 }
 
 /*----------------------------------
@@ -217,10 +244,14 @@ ABOUT ME Iconos----------------------------------*/
 
 .fa-user-o {
     font-size: 1.5em;
-    /*border: 2px solid var(--main-bg-color);
-    border-radius: 100px;*/
     padding: 10px;
     color:  var(--main-bg-color);
+    /*apartir de aqui, las propiedades aplicadas sirven para centrar el icono*/
+    display: block !important;/* aplicamos !important para que este display: block; 
+    tenga preferencia sobre los estilos que se aplique poseriormente sobre el mismo elemento.*/
+    margin: auto;
+    width: 20px;
+    padding-left: 0px;
     
 }
 
@@ -231,10 +262,14 @@ ABOUT ME Iconos----------------------------------*/
 
 .fa-birthday-cake {
     font-size: 1.5em;
-    /*border: 2px solid var(--main-bg-color);
-    border-radius: 100px;*/
     padding: 10px;
     color:  var(--main-bg-color);
+    /*apartir de aqui, las propiedades aplicadas sirven para centrar el icono*/
+    display: block !important;/* aplicamos !important para que este display: block; 
+    tenga preferencia sobre los estilos que se aplique poseriormente sobre el mismo elemento.*/
+    margin: auto;
+    width: 20px;
+    padding-left: 0px;
 }
 
 .fa-birthday-cake:before {
@@ -244,10 +279,14 @@ ABOUT ME Iconos----------------------------------*/
 
 .fa-envelope-o {
     font-size: 1.5em;
-    /*border: 2px solid var(--main-bg-color);
-    border-radius: 100px;*/
     padding: 10px;
     color:  var(--main-bg-color);
+    /*apartir de aqui, las propiedades aplicadas sirven para centrar el icono*/
+    display: block !important;/* aplicamos !important para que este display: block; 
+    tenga preferencia sobre los estilos que se aplique poseriormente sobre el mismo elemento.*/
+    margin: auto;
+    width: 20px;
+    padding-left: 0px;
 }
 
 .fa-envelope-o:before {
@@ -257,10 +296,14 @@ ABOUT ME Iconos----------------------------------*/
 
 .fa-home {
     font-size: 1.5em;
-    /*border: 2px solid var(--main-bg-color);
-    border-radius: 100px;*/
     padding: 10px;
     color:  var(--main-bg-color);
+    /*apartir de aqui, las propiedades aplicadas sirven para centrar el icono*/
+    display: block !important; /* aplicamos !important para que este display: block; 
+    tenga preferencia sobre los estilos que se aplique poseriormente sobre el mismo elemento.*/
+    width: 20px;
+    margin: auto;
+    padding-left: 0px;
 }
 
 .fa-home:before {
@@ -268,13 +311,21 @@ ABOUT ME Iconos----------------------------------*/
    /* font-size: 20px;*/
 }
 
-.datos_iconos li{
-	display: inline-block;
-    /*padding-top: 31px;*/
-    width: 24%;
-    font-size: 0.75em;
-    color: white;  
+
+
+/*===================== Iconos RRSS =============*/
+
+.iconos_RRSS{
+	width: 80%;
+	margin:auto;
 }
+
+.iconos_RRSS li{
+	display: inline-block;
+	padding-top: 60px;
+}
+
+
 
 
 
