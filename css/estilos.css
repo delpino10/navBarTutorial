@@ -213,14 +213,9 @@ ABOUT ME ----------------------------------*/
 
 }
 
-/*.datos ul{
-	list-style: none;
-}*/
-
 .datos li{
 	/*float:left;*/
-	display: inline-block;
-    
+	display: inline-block; 
 }
 
 .datos div{
