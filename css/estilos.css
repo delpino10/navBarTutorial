@@ -36,7 +36,10 @@ strong{
 
 
 /*=========================================
-HEADER Y MENU =============================*/
+
+HEADER Y MENU 
+
+=============================*/
 
 
 
@@ -116,7 +119,10 @@ nav a:hover::after {
 
 
 /*=========================================
-MAIN =============================*/
+
+MAIN 
+
+=============================*/
 
 
 
@@ -133,7 +139,8 @@ MAIN =============================*/
 	height: auto;
 }
 /*----------------------------------
-RECUADRO Above-the-scroll----------------------------------*/
+RECUADRO Above-the-scroll
+----------------------------------*/
 
 .contenedor_intro{
 	position: absolute;
@@ -180,14 +187,12 @@ RECUADRO Above-the-scroll----------------------------------*/
 }
 
 /*----------------------------------
-ABOUT ME ----------------------------------*/
+ABOUT ME 
+----------------------------------*/
 
 .aboutme_contenedor{
 	background: #000;
-	
-
 }
-
 
 .aboutme p{
 	text-align: center;
@@ -197,16 +202,14 @@ ABOUT ME ----------------------------------*/
     color:#fff;
 }
 
-.aboutme_datos{
-	
-	background-color: #000;
-
-}
+	/*.aboutme_datos{
+		background-color: #000;
+	}*/
 
 .datos{
 	width: 90%;
 	margin: auto;
-	padding: 50px 0px;
+	padding: 50px 0px; /*desplazar la "ul" arriba y abajo*/ 
 	list-style: none;
 	background-color: #000;
 	color: #fff;
@@ -235,7 +238,8 @@ ABOUT ME ----------------------------------*/
 }
 
 /*----------------------------------
-ABOUT ME Iconos----------------------------------*/
+ABOUT ME Iconos dentro de class="datos"
+----------------------------------*/
 
 .fa-user-o {
     font-size: 1.5em;
@@ -306,18 +310,18 @@ ABOUT ME Iconos----------------------------------*/
    /* font-size: 20px;*/
 }
 
+/*===================== 
+Iconos RRSS 
+=============*/
 
-
-/*===================== Iconos RRSS =============*/
-
-.iconos_RRSS{
-	width: 80%;
+.rrss{
+	width: 90%;
 	margin:auto;
 }
 
-.iconos_RRSS li{
+.rrss li{
 	display: inline-block;
-	padding-top: 60px;
+	padding: 50px;
 }
 
 
@@ -328,7 +332,10 @@ ABOUT ME Iconos----------------------------------*/
 
 
 /*=========================================
-@MEDIA =============================*/
+
+@MEDIA 
+
+=============================*/
 
 
 @media screen and (max-width: 1024px) and (min-width: 520px){
