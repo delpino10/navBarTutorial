@@ -1,3 +1,8 @@
+:root {
+    --main-bg-color: steelblue; 
+    /*--main-bg-color: #d84a5c;*/ 
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -14,24 +19,24 @@ h2{
 	font-size: 2.5vw;
 	text-align: center;
     padding: 40px 0px;
-    color: steelblue;
+    color: var(--main-bg-color);
     font-weight: 400;
 }
 
 
 h3{
 	text-align: left;
-	color: steelblue;
+	color: var(--main-bg-color);
 	font-weight: 200;
 }
 
 strong{
-	color: steelblue;
+	color: var(--main-bg-color);
 }
 
 
 /*=========================================
-HEADER Y mENU =============================*/
+HEADER Y MENU =============================*/
 
 
 
@@ -43,10 +48,11 @@ HEADER Y mENU =============================*/
 
 header{
 	/*background: #55d6aa;*/
-	background: steelblue;
+	background: var(--main-bg-color);
 	
 }
 
+/*Css Trick para menu important!*/
 header::after{
 	content: '';
 	display: table;
@@ -123,41 +129,58 @@ MAIN =============================*/
 }
 
 .main img{
-	width: 100%;
 	max-width: 100%;
 	height: auto;
 }
+/*----------------------------------
+RECUADRO ----------------------------------*/
 
 .contenedor_intro{
 	position: absolute;
 	display: inline-block;
 	width: 100%;
-	height: 200px;
-	background-color: rgba(255,255,255,0.3);
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
 	border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
-    top: 50%;
+    /*top: 50%;*/
     padding: 30px;
+}
+
+.main_recuadro{
+    position: absolute;
+    height: 40%;
+    width: 20%;
+    border: 2px solid var(--main-bg-color);
+    top: 31%;
+    left: 30%;
 }
 
 .contenedor_intro h1{
 	font-size: 3em;
 	line-height: 0.9;
 	position: absolute;
-    top: 42%;
+    top: 50%;
+    left: 35%;
     color: white;
+    z-index: 1;
 }
 
 .contenedor_intro h2{
 	font-weight: 400;
     text-transform: uppercase;
     font-size: 1em;
-    color: steelblue;
+    color: var(--main-bg-color);
     padding: 0px;
     text-align: left;
    	position: absolute;
-   	top: 28%;
+  	top: 44%;
+    left: 12%;
+    transform: rotate(270deg);
 }
+
+/*----------------------------------
+ABOUT ME ----------------------------------*/
 
 .aboutme_contenedor{
 	background: #000;
