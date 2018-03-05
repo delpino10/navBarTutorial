@@ -332,7 +332,7 @@ cuando usamos "float:left;" en las listas (ul)*/
 	/*display: inline-block;*/
 	float: left;
 	width: 25%;
-    padding: 0px 34px;
+    padding: 0px 44px;
     list-style: none;
     border-right: 1px solid var(--main-bg-color);
 }
@@ -566,6 +566,10 @@ Software desarrollo Web
 .jquery {
 	 background-color: #e3f45c; 
 }
+
+
+
+
 
 
 
