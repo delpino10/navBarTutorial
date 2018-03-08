@@ -27,7 +27,7 @@ h2{
 h3{
 	text-align: left;
 	color: var(--main-bg-color);
-	font-weight: 200;
+	font-weight: 300;
 }
 
 strong{
@@ -36,9 +36,7 @@ strong{
 
 
 /*=========================================
-
 HEADER Y MENU 
-
 =============================*/
 
 
@@ -334,7 +332,7 @@ cuando usamos "float:left;" en las listas (ul)*/
 	width: 25%;
     padding: 0px 44px;
     list-style: none;
-    border-right: 1px solid var(--main-bg-color);
+    /*border-right: 1px solid var(--main-bg-color);*/
 }
 
 .fa-instagram{
@@ -416,6 +414,11 @@ Habilidades Profesionales
 Software de diseño
 =============*/
 
+.skillsSoftwareBg{
+		background: url(../img/bg.png) no-repeat;
+		
+}
+
 .skillboxcenter{
 	width: 60%;
 	margin:  auto;
@@ -493,6 +496,10 @@ Software de diseño
 /*===================== 
 Software desarrollo Web
 =============*/
+
+.skillsDesarrolloWeb{
+	margin-top: 100px;
+}
 
 .skillboxcenter2{
 	width: 60%;
