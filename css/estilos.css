@@ -332,6 +332,7 @@ cuando usamos "float:left;" en las listas (ul)*/
 	width: 25%;
     padding: 0px 44px;
     list-style: none;
+    text-align: center;
     /*border-right: 1px solid var(--main-bg-color);*/
 }
 
@@ -415,7 +416,7 @@ Software de diseño
 =============*/
 
 .skillsSoftwareBg{
-		background: url(../img/bg.png) no-repeat;
+		background: url(../img/bg.png) repeat-x;
 		
 }
 
